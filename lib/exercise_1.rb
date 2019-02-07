@@ -6,8 +6,7 @@ class Note
     end
   
     def display
-      text = @formatter.format(self)
-      return text
+      @formatter.format(self)
     end
   
     attr_reader :title, :body
