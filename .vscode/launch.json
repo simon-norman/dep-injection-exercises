@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run RSpec - all",
+            "type": "Ruby",
+            "request": "launch",
+            "program": "${workspaceRoot}/bin/rspec",
+        },
+
+        {
+			"name": "Debug Local",
+			"type": "Ruby",
+			"request": "launch",
+			"program": "${workspaceRoot}/lib/dice.rb"
+		}
+    ]
+}
