@@ -1,5 +1,5 @@
 class Greeter
-  def initialize(kernel, output = $stdout)
+  def initialize(kernel = Kernel, output = $stdout)
     @kernel = kernel
     @output = output
   end
