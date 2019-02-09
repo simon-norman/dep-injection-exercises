@@ -11,6 +11,10 @@ describe EmailClient do
   end
 end
 
+describe Message do
+  it { is_expected.to respond_to(:send).with(2).argument }
+end
+
 describe SayHelloToMyLittleFriend do
   it 'should send an email' do
     @message_double = double(:message, send: '')
